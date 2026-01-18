@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NG ANDAMIOS | Contacto</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+<header>
+  <div class="wrap brand">
+    <div class="logo">
+      <img src="NG.png" alt="Logo NG Andamios">
+    </div>
+    <div>
+      <h1>NG ANDAMIOS</h1>
+      <p>Alquiler de andamios y herramientas para obras y reformas</p>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <!-- Intro + servicios y contacto rápido -->
+  <section class="hero-grid">
+    <div class="hero">
+      <div class="hero-card intro">
+        <h2>Soluciones completas para tu obra</h2>
+        <p>En NG ANDAMIOS ofrecemos alquiler de andamios seguros y herramientas de construcción...</p>
+
+        <h3>Servicios</h3>
+        <div class="services">
+          <div class="service servicio-andamios">
+            <h3>Alquiler de Andamios</h3>
+          </div>
+          <div class="service servicio-herramientas">
+            <h3>Herramientas de Construcción</h3>
+          </div>
+          <div class="service servicio-entrega">
+            <h3>Entrega a Domicilio</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <aside class="contacto-col">
+      <div class="hero-card">
+        <h3>Contacto rápido</h3>
+        <p><strong>Tel:</strong> +54 9 2254 61-5250</p>
+        <p><strong>Email:</strong> contacto@ngandamios.com</p>
+
+        <!-- Imagen con enlace a Google Maps -->
+        <P>Buscanos en</P>
+        <a href="https://www.google.com/maps/place/NG+ANDAMIOS+Pinamar" target="_blank">
+          <img src="andamios/maps.png" alt="Ubicación en Google Maps" class="maps-icon">
+        </a>
+      </div>
+    </aside>
+  </section>
+
+  <!-- Galería -->
+  <section id="galeria">
+    <h3>Galería</h3>
+    <div class="gallery">
+      <img src="andamios/imagen2.jpeg" alt="Andamio en obra">
+      <img src="andamios/herramienta.jpeg" alt="Herramienta">
+      <img src="andamios/andamios.jpeg" alt="Andamio montado">
+      <img src="andamios/herramienta chica.jpeg" alt="Herramienta chica">
+    </div>
+  </section>
+
+  <!-- Formulario abajo -->
+  <section id="contacto" class="hero-card">
+    <h3>Formulario de contacto</h3>
+    <form action="sendMail" method="POST">
+      <label>Nombre</label>
+      <input type="text" name="nombre" required>
+
+      <label>Email</label>
+      <input type="email" name="email" required>
+
+      <label>Mensaje</label>
+      <textarea name="mensaje" required></textarea>
+
+      <button class="btn" type="submit">Enviar</button>
+    </form>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <strong>NG ANDAMIOS</strong><br>
+    Pinamar, Buenos Aires · +54 9 2254 61-5250
+  </div>
+  <p>© 2026 NG ANDAMIOS. Todos los derechos reservados.</p>
+
+</footer>
+<!-- Botón flotante de WhatsApp -->
+ 
+<a href="https://wa.me/5492254615250" class="btn-wspp" target="_blank">
+  <img src="andamios/whatsapp.png" alt="WhatsApp">
+</a>
+</body>
+</html>
